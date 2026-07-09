@@ -27,7 +27,7 @@ if time.time() - OG_TIME >= 300:
     break
 ```
 
-To change the run duration, replace `15` with the number of seconds you want it to run for before it prints the score and stops. For example, to run for 2 minutes instead:
+To change the run duration, replace `300` with the number of seconds you want it to run for before it prints the score and stops. For example, to run for 2 minutes instead:
 
 ```python
 if time.time() - OG_TIME >= 120:
